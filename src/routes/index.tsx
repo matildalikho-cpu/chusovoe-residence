@@ -5,7 +5,8 @@ import dockMist from "@/assets/dock-mist.jpg.asset.json";
 import hillSunset from "@/assets/hill-sunset.jpg.asset.json";
 import table from "@/assets/table.jpg.asset.json";
 import cliff from "@/assets/cliff.jpg.asset.json";
-import houseSheep from "@/assets/house-sheep.jpg.asset.json";
+import housePorch from "@/assets/house-porch.jpg.asset.json";
+import houseMarigolds from "@/assets/house-marigolds.jpg.asset.json";
 import prints from "@/assets/prints.jpg.asset.json";
 import dog from "@/assets/dog.jpg.asset.json";
 import hostsCollage from "@/assets/hosts-collage.jpg.asset.json";
@@ -53,7 +54,7 @@ const rooms = [
   ["Поле перед домом", "для собственной палатки"],
 ];
 
-const gallery = [lakeFloat, dockMist, hillSunset, table, cliff, houseSheep, prints, dog];
+const gallery = [lakeFloat, dockMist, hillSunset, table, cliff, prints, dog];
 
 function Section({
   number,
@@ -245,11 +246,18 @@ function Index() {
       <Section number="05" title="Дом и размещение">
         <div className="grid gap-12 md:grid-cols-2 md:gap-16">
           <div>
-            <img
-              src={houseSheep.url}
-              alt="Дом в Чусовом"
-              className="aspect-[3/4] w-full object-cover"
-            />
+            <div className="grid grid-cols-2 gap-2">
+              <img
+                src={housePorch.url}
+                alt="Дом с верандой в Чусовом"
+                className="aspect-[3/4] w-full object-cover"
+              />
+              <img
+                src={houseMarigolds.url}
+                alt="Дом и бархатцы у забора"
+                className="aspect-[3/4] w-full object-cover"
+              />
+            </div>
             <p className="mt-6 font-serif italic text-lg leading-relaxed text-foreground/85">
               Дом немного похож на Ходячий замок Хаула: он строился и
               перестраивался, в нём отразилось время, дефицит бюджета, влияние
