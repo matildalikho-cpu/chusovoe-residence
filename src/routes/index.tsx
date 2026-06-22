@@ -411,7 +411,7 @@ function Index() {
       <section id="apply" className="border-t border-border/60 px-6 py-24 md:px-12 md:py-40">
         <div className="mx-auto max-w-3xl text-center">
           <span className="font-sans text-xs uppercase tracking-[0.3em] text-muted-foreground">
-            опенколл
+            КОНТАКТ
           </span>
           <h2 className="mt-6 text-4xl leading-tight md:text-6xl">
             Напишите нам,&nbsp;
