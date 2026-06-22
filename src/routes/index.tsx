@@ -414,13 +414,15 @@ function Index() {
             опенколл
           </span>
           <h2 className="mt-6 text-4xl leading-tight md:text-6xl">
-            Напишите нам, если хотите стать
+            Напишите нам,&nbsp;
+            <br />
+            если хотите стать
             <br />
             <em>участником следующей резиденции</em>
           </h2>
           <p className="mx-auto mt-8 max-w-xl text-base leading-relaxed text-muted-foreground">
             Расскажите немного о себе и о том, чем хотите поделиться. Мы свяжемся,
-            когда сложится следующий состав.
+            когда сложится следующий состав и будут известны даты.
           </p>
           <a
             href="https://t.me/AlyonaRocket"
