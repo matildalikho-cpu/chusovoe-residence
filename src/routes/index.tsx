@@ -9,6 +9,8 @@ import houseSheep from "@/assets/house-sheep.jpg.asset.json";
 import prints from "@/assets/prints.jpg.asset.json";
 import dog from "@/assets/dog.jpg.asset.json";
 import portrait from "@/assets/portrait.jpg.asset.json";
+import alyona from "@/assets/alyona.jpg.asset.json";
+import dmitry from "@/assets/dmitry.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
