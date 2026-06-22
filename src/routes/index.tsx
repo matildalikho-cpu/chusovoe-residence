@@ -32,6 +32,13 @@ import goats from "@/assets/goats.jpg.asset.json";
 import hammockPiano from "@/assets/hammock-piano.jpg.asset.json";
 import paintsLake from "@/assets/paints-lake.jpg.asset.json";
 import groupPorch from "@/assets/group-porch.jpg.asset.json";
+import pastaPorch from "@/assets/pasta-porch.jpg.asset.json";
+import yellowWall from "@/assets/yellow-wall.jpg.asset.json";
+import verandaSunset from "@/assets/veranda-sunset.jpg.asset.json";
+import tentsLake from "@/assets/tents-lake.jpg.asset.json";
+import mosaicHands from "@/assets/mosaic-hands.jpg.asset.json";
+import lunchLake from "@/assets/lunch-lake.jpg.asset.json";
+import barnCinema from "@/assets/barn-cinema.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -77,6 +84,13 @@ const rooms = [
 ];
 
 const gallery = [
+  pastaPorch,
+  tentsLake,
+  barnCinema,
+  verandaSunset,
+  lunchLake,
+  mosaicHands,
+  yellowWall,
   bridgeFog,
   meadowSunrise,
   pianoYard,
