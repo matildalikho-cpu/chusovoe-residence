@@ -101,13 +101,13 @@ function Index() {
             </nav>
           </header>
           <div className="absolute inset-x-0 bottom-0 px-6 pb-16 md:px-12 md:pb-24">
-            <div className="mx-auto max-w-5xl">
+            <div className="mx-auto max-w-6xl">
               <img
                 src={logo.url}
                 alt="Чусовое — частная творческая резиденция"
-                className="mb-6 h-32 w-auto md:h-48"
+                className="mb-8 w-full max-w-3xl drop-shadow-[0_2px_24px_rgba(255,255,255,0.6)] md:max-w-5xl"
               />
-              <p className="max-w-xl font-sans text-sm uppercase tracking-[0.25em] text-foreground/70">
+              <p className="max-w-xl pl-1 font-sans text-sm uppercase tracking-[0.25em] text-foreground/70">
                 село Чусовое · Урал · одна неделя в году
               </p>
             </div>
