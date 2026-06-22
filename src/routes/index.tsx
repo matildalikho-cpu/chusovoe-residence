@@ -100,6 +100,15 @@ function Index() {
               <a href="#apply" className="hover:text-foreground">Опенколл</a>
             </nav>
           </header>
+          <figure className="absolute right-6 top-24 max-w-xs md:right-12 md:top-28 md:max-w-md">
+            <p className="font-serif text-lg italic leading-relaxed text-foreground/90 md:text-2xl">
+              «Просто сделать выдох. Не ожидая от себя и других никаких новых
+              супер‑достижений — побыть собой, с собой и с другими.»
+            </p>
+            <figcaption className="mt-4 text-right font-sans text-[10px] uppercase tracking-[0.3em] text-foreground/60">
+              эпиграф
+            </figcaption>
+          </figure>
           <div className="absolute inset-x-0 bottom-0 px-6 pb-16 md:px-12 md:pb-24">
             <div className="mx-auto max-w-6xl">
               <img
@@ -115,15 +124,7 @@ function Index() {
         </div>
       </section>
 
-      {/* Intro */}
-      <section id="idea" className="px-6 py-24 md:px-12 md:py-32">
-        <div className="mx-auto max-w-3xl text-center">
-          <p className="font-serif text-2xl italic leading-relaxed text-foreground/90 md:text-4xl">
-            Просто сделать выдох. Не ожидая от себя и других никаких новых
-            супер‑достижений — побыть собой, с собой и с другими.
-          </p>
-        </div>
-      </section>
+
 
       <Section number="01" title="Идея резиденции">
         <div className="grid gap-12 md:grid-cols-2 md:gap-16">
