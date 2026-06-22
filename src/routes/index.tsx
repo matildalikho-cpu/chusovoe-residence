@@ -12,6 +12,16 @@ import banyaDusk from "@/assets/banya-dusk.jpg.asset.json";
 import prints from "@/assets/prints.jpg.asset.json";
 import dog from "@/assets/dog.jpg.asset.json";
 import hostsCollage from "@/assets/hosts-collage.jpg.asset.json";
+import dinnerView from "@/assets/dinner-view.jpg.asset.json";
+import dogRing from "@/assets/dog-ring.jpg.asset.json";
+import pianoYard from "@/assets/piano-yard.jpg.asset.json";
+import lakeReading from "@/assets/lake-reading.jpg.asset.json";
+import dogLeaves from "@/assets/dog-leaves.jpg.asset.json";
+import swingLaptop from "@/assets/swing-laptop.jpg.asset.json";
+import dockGroup from "@/assets/dock-group.jpg.asset.json";
+import lunchGirls from "@/assets/lunch-girls.jpg.asset.json";
+import porchSun from "@/assets/porch-sun.jpg.asset.json";
+import bridgeFog from "@/assets/bridge-fog.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -56,7 +66,18 @@ const rooms = [
   ["Поле перед домом", "для собственной палатки"],
 ];
 
-const gallery = [lakeFloat, dockMist, hillSunset, table, cliff, prints, dog];
+const gallery = [
+  bridgeFog,
+  pianoYard,
+  dogRing,
+  lakeReading,
+  dinnerView,
+  swingLaptop,
+  dockGroup,
+  dogLeaves,
+  lunchGirls,
+  porchSun,
+];
 
 function Section({
   number,
