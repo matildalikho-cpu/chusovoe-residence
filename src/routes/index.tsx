@@ -102,8 +102,8 @@ function Index() {
           </header>
           <figure className="absolute right-6 top-24 max-w-xs md:right-12 md:top-28 md:max-w-md">
             <p className="font-serif text-lg italic leading-relaxed text-foreground/90 md:text-2xl">
-              «Просто сделать выдох. Не ожидая от себя и других никаких новых
-              супер‑достижений — побыть собой, с собой и с другими.»
+              Иногда нужно просто сделать выдох, не ожидая от себя и других
+              никаких сверхдостижений, и побыть собой, с собой и с другими
             </p>
           </figure>
           <div className="absolute inset-x-0 bottom-0 px-6 pb-16 md:px-12 md:pb-24">
