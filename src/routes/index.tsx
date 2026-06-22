@@ -274,13 +274,13 @@ function Index() {
       </Section>
 
       <Section number="04" title="Что мы делаем">
-        <div className="grid gap-12 md:grid-cols-2">
+        <div className="grid gap-12 md:grid-cols-2 md:items-stretch">
           <p className="font-serif text-xl leading-relaxed md:text-2xl">
             Прежде всего мы живём вместе: готовим, едим, гуляем, разговариваем,
             делимся своим искусством — кино, музыкой, иллюстрациями, фотографиями.
             Встречаем рассветы, любуемся закатами, купаемся, загораем, ходим в баню.
           </p>
-          <div className="space-y-5 text-base leading-relaxed text-muted-foreground">
+          <div className="flex flex-col justify-between space-y-5 text-base leading-relaxed text-muted-foreground">
             <p>
               {"\n"}
             </p>
