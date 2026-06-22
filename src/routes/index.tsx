@@ -170,7 +170,22 @@ function Index() {
               Резиденция работает по одному Богу известному расписанию, и мы всегда рады, когда все складывается и получается
             </p>
           </figure>
-...
+          <div className="absolute inset-x-0 bottom-0 px-6 pb-16 md:px-12 md:pb-24">
+            <div className="mx-auto max-w-6xl">
+              <img
+                src={logo.url}
+                alt="Чусовое — частная творческая резиденция"
+                className="mb-8 w-full max-w-3xl drop-shadow-[0_2px_24px_rgba(255,255,255,0.6)] md:max-w-5xl"
+              />
+              <p className="max-w-xl pl-1 font-sans text-sm uppercase tracking-[0.25em] text-foreground/70">
+                село Чусовое · Урал · одна неделя в году
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="idea" />
       <Section number="01" title="Идея резиденции">
         <div className="grid gap-12 md:grid-cols-2 md:gap-16">
           <p className="font-serif text-xl leading-relaxed md:text-2xl">
