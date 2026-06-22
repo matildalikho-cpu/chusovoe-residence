@@ -192,7 +192,7 @@ function Index() {
                 className="w-full object-cover"
               />
               <figcaption className="mt-2 font-sans text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-                Нина · Дмитрий · Алёна
+                {"\n"}
               </figcaption>
             </figure>
           </div>
