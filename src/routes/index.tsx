@@ -108,6 +108,7 @@ const homeGallery = [
   paintsLake,
   lunchGirls,
   porchSun,
+  tentsLake,
 ];
 
 const natureGallery = [
@@ -117,7 +118,6 @@ const natureGallery = [
   bridgeDawn,
   thistles,
   goats,
-  tentsLake,
 ];
 
 function Section({
