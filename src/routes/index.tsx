@@ -389,13 +389,32 @@ function Index() {
 
       {/* Gallery */}
       <Section number="07" title="Фотографии">
-        <div className="columns-2 gap-2 md:columns-3 [&>img]:mb-2">
-          {gallery.map((img, i) => (
+        <div className="grid grid-cols-2 gap-2 md:grid-cols-3">
+          <div className="col-span-full mb-2 mt-4 first:mt-0">
+            <span className="font-sans text-xs uppercase tracking-[0.3em] text-muted-foreground">
+              Дом и творчество
+            </span>
+          </div>
+          {homeGallery.map((img, i) => (
             <img
-              key={i}
+              key={`home-${i}`}
               src={img.url}
               alt=""
-              className="w-full break-inside-avoid object-cover"
+              className="aspect-[3/4] w-full object-cover"
+              loading="lazy"
+            />
+          ))}
+          <div className="col-span-full mb-2 mt-8">
+            <span className="font-sans text-xs uppercase tracking-[0.3em] text-muted-foreground">
+              Рассвет и природа
+            </span>
+          </div>
+          {natureGallery.map((img, i) => (
+            <img
+              key={`nature-${i}`}
+              src={img.url}
+              alt=""
+              className="aspect-[3/4] w-full object-cover"
               loading="lazy"
             />
           ))}
