@@ -388,7 +388,7 @@ function Index() {
       </Section>
 
       {/* Gallery */}
-      <Section number="07" title="Фотографии">
+      <Section number="07" title="Как это было">
         <div className="grid grid-cols-2 gap-2 md:grid-cols-3">
           {homeGallery.map((img, i) => (
             <img
