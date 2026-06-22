@@ -83,22 +83,20 @@ const rooms = [
   ["Поле перед домом", "для собственной палатки"],
 ];
 
-const gallery = [
+const homeGallery = [
+  housePorch,
+  houseMarigolds,
+  houseWall,
+  banyaDusk,
   pastaPorch,
-  tentsLake,
+  yellowWall,
   barnCinema,
   verandaSunset,
   lunchLake,
   mosaicHands,
-  yellowWall,
-  bridgeFog,
-  meadowSunrise,
   pianoYard,
-  spiderWeb,
   dogRing,
-  bridgeDawn,
   lakeReading,
-  thistles,
   dinnerView,
   phoneMeadow,
   swingLaptop,
@@ -108,9 +106,18 @@ const gallery = [
   dogLeaves,
   dockSwim,
   paintsLake,
-  goats,
   lunchGirls,
   porchSun,
+];
+
+const natureGallery = [
+  bridgeFog,
+  meadowSunrise,
+  spiderWeb,
+  bridgeDawn,
+  thistles,
+  goats,
+  tentsLake,
 ];
 
 function Section({
