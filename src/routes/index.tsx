@@ -442,7 +442,7 @@ function Index() {
       <footer className="border-t border-border/60 px-6 py-10 md:px-12">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 font-sans text-xs uppercase tracking-[0.25em] text-muted-foreground">
           <span>Чусовое · частная творческая резиденция</span>
-          <span>с любовью, с 2022</span>
+          <span>2022-2026</span>
         </div>
       </footer>
     </main>
