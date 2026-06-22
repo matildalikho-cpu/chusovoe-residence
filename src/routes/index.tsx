@@ -184,11 +184,38 @@ function Index() {
             </p>
           </div>
           <div className="md:col-span-2">
-            <img
-              src={portrait.url}
-              alt="Хост резиденции"
-              className="aspect-[3/4] w-full object-cover"
-            />
+            <div className="grid grid-cols-2 gap-2">
+              <figure className="col-span-2">
+                <img
+                  src={portrait.url}
+                  alt="Нина Бисярина"
+                  className="aspect-[4/3] w-full object-cover"
+                />
+                <figcaption className="mt-2 font-sans text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
+                  Нина Бисярина · основатель
+                </figcaption>
+              </figure>
+              <figure>
+                <img
+                  src={dmitry.url}
+                  alt="Дмитрий Кунилов"
+                  className="aspect-[3/4] w-full object-cover"
+                />
+                <figcaption className="mt-2 font-sans text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
+                  Дмитрий · хост
+                </figcaption>
+              </figure>
+              <figure>
+                <img
+                  src={alyona.url}
+                  alt="Алёна Кунилова"
+                  className="aspect-[3/4] w-full object-cover"
+                />
+                <figcaption className="mt-2 font-sans text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
+                  Алёна · хост
+                </figcaption>
+              </figure>
+            </div>
           </div>
         </div>
       </Section>
