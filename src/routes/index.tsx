@@ -216,6 +216,7 @@ function Index() {
         <img src={cliff.url} alt="" className="aspect-[3/4] w-full object-cover" />
       </div>
 
+      <div id="history" />
       <Section number="02" title="История">
         <div className="grid gap-12 md:grid-cols-5">
           <div className="md:col-span-3 space-y-5 text-base leading-relaxed text-muted-foreground">
