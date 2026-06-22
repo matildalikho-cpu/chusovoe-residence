@@ -53,7 +53,7 @@ const rooms = [
   ["Поле перед домом", "для собственной палатки"],
 ];
 
-const gallery = [lakeFloat, dockMist, hillSunset, table, cliff, houseSheep, prints, dog, portrait];
+const gallery = [lakeFloat, dockMist, hillSunset, table, cliff, houseSheep, prints, dog];
 
 function Section({
   number,
