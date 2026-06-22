@@ -259,6 +259,16 @@ function Index() {
                 alt="Дом и бархатцы у забора"
                 className="aspect-[3/4] w-full object-cover"
               />
+              <img
+                src={houseWall.url}
+                alt="Красная стена дома в тени листвы"
+                className="aspect-[3/4] w-full object-cover"
+              />
+              <img
+                src={banyaDusk.url}
+                alt="Баня на берегу в сумерках"
+                className="aspect-[3/4] w-full object-cover"
+              />
             </div>
             <p className="mt-6 font-serif italic text-lg leading-relaxed text-foreground/85">
               Дом немного похож на Ходячий замок Хаула: он строился и
