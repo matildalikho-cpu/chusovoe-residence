@@ -22,6 +22,16 @@ import dockGroup from "@/assets/dock-group.jpg.asset.json";
 import lunchGirls from "@/assets/lunch-girls.jpg.asset.json";
 import porchSun from "@/assets/porch-sun.jpg.asset.json";
 import bridgeFog from "@/assets/bridge-fog.jpg.asset.json";
+import meadowSunrise from "@/assets/meadow-sunrise.jpg.asset.json";
+import spiderWeb from "@/assets/spider-web.jpg.asset.json";
+import bridgeDawn from "@/assets/bridge-dawn.jpg.asset.json";
+import phoneMeadow from "@/assets/phone-meadow.jpg.asset.json";
+import thistles from "@/assets/thistles.jpg.asset.json";
+import dockSwim from "@/assets/dock-swim.jpg.asset.json";
+import goats from "@/assets/goats.jpg.asset.json";
+import hammockPiano from "@/assets/hammock-piano.jpg.asset.json";
+import paintsLake from "@/assets/paints-lake.jpg.asset.json";
+import groupPorch from "@/assets/group-porch.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
