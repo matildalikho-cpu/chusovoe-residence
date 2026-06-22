@@ -89,10 +89,6 @@ const rooms = [
 ];
 
 const homeGallery = [
-  housePorch,
-  houseMarigolds,
-  houseWall,
-  banyaDusk,
   pastaPorch,
   yellowWall,
   barnCinema,
