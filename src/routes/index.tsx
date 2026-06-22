@@ -126,6 +126,7 @@ function Index() {
 
 
 
+      <div id="idea" />
       <Section number="01" title="Идея резиденции">
         <div className="grid gap-12 md:grid-cols-2 md:gap-16">
           <p className="font-serif text-xl leading-relaxed md:text-2xl">
