@@ -7,6 +7,8 @@ import table from "@/assets/table.jpg.asset.json";
 import cliff from "@/assets/cliff.jpg.asset.json";
 import housePorch from "@/assets/house-porch.jpg.asset.json";
 import houseMarigolds from "@/assets/house-marigolds.jpg.asset.json";
+import houseWall from "@/assets/house-wall.jpg.asset.json";
+import banyaDusk from "@/assets/banya-dusk.jpg.asset.json";
 import prints from "@/assets/prints.jpg.asset.json";
 import dog from "@/assets/dog.jpg.asset.json";
 import hostsCollage from "@/assets/hosts-collage.jpg.asset.json";
