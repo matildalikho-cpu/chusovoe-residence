@@ -246,11 +246,18 @@ function Index() {
       <Section number="05" title="Дом и размещение">
         <div className="grid gap-12 md:grid-cols-2 md:gap-16">
           <div>
-            <img
-              src={houseSheep.url}
-              alt="Дом в Чусовом"
-              className="aspect-[3/4] w-full object-cover"
-            />
+            <div className="grid grid-cols-2 gap-2">
+              <img
+                src={housePorch.url}
+                alt="Дом с верандой в Чусовом"
+                className="aspect-[3/4] w-full object-cover"
+              />
+              <img
+                src={houseMarigolds.url}
+                alt="Дом и бархатцы у забора"
+                className="aspect-[3/4] w-full object-cover"
+              />
+            </div>
             <p className="mt-6 font-serif italic text-lg leading-relaxed text-foreground/85">
               Дом немного похож на Ходячий замок Хаула: он строился и
               перестраивался, в нём отразилось время, дефицит бюджета, влияние
