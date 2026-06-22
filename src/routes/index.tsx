@@ -157,7 +157,7 @@ function Index() {
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background" />
           <header className="absolute inset-x-0 top-0 flex items-center justify-between px-6 py-6 md:px-12">
-            <span className="font-serif italic text-lg text-foreground/90">Чусовое</span>
+            <span className="font-serif italic text-lg text-foreground/90">Частная творческая резиденция в селе Чусовое, Свердловской области</span>
             <nav className="hidden gap-8 font-sans text-xs uppercase tracking-[0.25em] text-foreground/80 md:flex">
               <a href="#idea" className="hover:text-foreground">Идея</a>
               <a href="#history" className="hover:text-foreground">История</a>
