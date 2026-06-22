@@ -159,10 +159,10 @@ function Index() {
           <header className="absolute inset-x-0 top-0 flex items-center justify-between px-6 py-6 md:px-12">
             <span className="font-serif italic text-lg text-foreground/90">Село Чусовое, Свердловская область</span>
             <nav className="hidden gap-8 font-sans text-xs uppercase tracking-[0.25em] text-foreground/80 md:flex">
-              <a href="#idea" className="hover:text-foreground">Идея</a>
-              <a href="#history" className="hover:text-foreground">История</a>
-              <a href="#stay" className="hover:text-foreground">Дом</a>
-              <a href="#apply" className="hover:text-foreground">КОНТАКТ</a>
+              <a href="#idea" className="hover:text-foreground transition-colors">Идея</a>
+              <a href="#history" className="hover:text-foreground transition-colors">История</a>
+              <a href="#stay" className="hover:text-foreground transition-colors">Дом</a>
+              <a href="#apply" className="hover:text-foreground transition-colors">КОНТАКТ</a>
             </nav>
           </header>
           <figure className="absolute right-6 top-24 max-w-xs md:right-12 md:top-28 md:max-w-md">
