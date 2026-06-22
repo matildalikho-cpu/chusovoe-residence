@@ -390,11 +390,6 @@ function Index() {
       {/* Gallery */}
       <Section number="07" title="Фотографии">
         <div className="grid grid-cols-2 gap-2 md:grid-cols-3">
-          <div className="col-span-full mb-2 mt-4 first:mt-0">
-            <span className="font-sans text-xs uppercase tracking-[0.3em] text-muted-foreground">
-              Дом и творчество
-            </span>
-          </div>
           {homeGallery.map((img, i) => (
             <img
               key={`home-${i}`}
@@ -404,11 +399,6 @@ function Index() {
               loading="lazy"
             />
           ))}
-          <div className="col-span-full mb-2 mt-8">
-            <span className="font-sans text-xs uppercase tracking-[0.3em] text-muted-foreground">
-              Рассвет и природа
-            </span>
-          </div>
           {natureGallery.map((img, i) => (
             <img
               key={`nature-${i}`}
