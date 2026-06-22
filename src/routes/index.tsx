@@ -303,6 +303,7 @@ function Index() {
         </div>
       </Section>
 
+      <div id="stay" />
       <Section number="05" title="Дом и размещение">
         <div className="grid gap-12 md:grid-cols-2 md:gap-16">
           <div>
