@@ -105,9 +105,6 @@ function Index() {
               «Просто сделать выдох. Не ожидая от себя и других никаких новых
               супер‑достижений — побыть собой, с собой и с другими.»
             </p>
-            <figcaption className="mt-4 text-right font-sans text-[10px] uppercase tracking-[0.3em] text-foreground/60">
-              эпиграф
-            </figcaption>
           </figure>
           <div className="absolute inset-x-0 bottom-0 px-6 pb-16 md:px-12 md:pb-24">
             <div className="mx-auto max-w-6xl">
