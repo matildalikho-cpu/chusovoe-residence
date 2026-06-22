@@ -78,13 +78,23 @@ const rooms = [
 
 const gallery = [
   bridgeFog,
+  meadowSunrise,
   pianoYard,
+  spiderWeb,
   dogRing,
+  bridgeDawn,
   lakeReading,
+  thistles,
   dinnerView,
+  phoneMeadow,
   swingLaptop,
+  groupPorch,
   dockGroup,
+  hammockPiano,
   dogLeaves,
+  dockSwim,
+  paintsLake,
+  goats,
   lunchGirls,
   porchSun,
 ];
