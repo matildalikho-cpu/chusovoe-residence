@@ -432,7 +432,7 @@ function Index() {
             <span aria-hidden>→</span>
           </a>
           <p className="mt-6 font-sans text-xs uppercase tracking-[0.25em] text-muted-foreground">
-            @AlyonaRocket
+            {"\n"}
           </p>
         </div>
       </section>
