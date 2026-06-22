@@ -162,7 +162,7 @@ function Index() {
               <a href="#idea" className="hover:text-foreground">Идея</a>
               <a href="#history" className="hover:text-foreground">История</a>
               <a href="#stay" className="hover:text-foreground">Дом</a>
-              <a href="#apply" className="hover:text-foreground">Опенколл</a>
+              <a href="#apply" className="hover:text-foreground">КОНТАКТ</a>
             </nav>
           </header>
           <figure className="absolute right-6 top-24 max-w-xs md:right-12 md:top-28 md:max-w-md">
