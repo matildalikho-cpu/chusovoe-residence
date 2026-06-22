@@ -202,7 +202,7 @@ function Index() {
                   className="aspect-[3/4] w-full object-cover"
                 />
                 <figcaption className="mt-2 font-sans text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-                  Дмитрий · хост
+                  ДМИТРИЙ ·&nbsp;
                 </figcaption>
               </figure>
               <figure>
