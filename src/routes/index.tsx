@@ -11,7 +11,7 @@ import houseWall from "@/assets/house-wall.jpg.asset.json";
 import banyaDusk from "@/assets/banya-dusk.jpg.asset.json";
 import prints from "@/assets/prints.jpg.asset.json";
 import dog from "@/assets/dog.jpg.asset.json";
-import hostsCollage from "@/assets/hosts-collage.jpg.asset.json";
+import ninaSticker from "@/assets/nina-sticker.png.asset.json";
 import dinnerView from "@/assets/dinner-view.jpg.asset.json";
 import dogRing from "@/assets/dog-ring.jpg.asset.json";
 import pianoYard from "@/assets/piano-yard.jpg.asset.json";
@@ -247,8 +247,8 @@ function Index() {
           <div className="md:col-span-2">
             <figure>
               <img
-                src={hostsCollage.url}
-                alt="Нина, Дмитрий, Алёна — коллаж"
+                src={ninaSticker.url}
+                alt="Нина"
                 className="w-full object-cover"
               />
               <figcaption className="mt-2 font-sans text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
