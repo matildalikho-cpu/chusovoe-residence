@@ -159,7 +159,7 @@ function Index() {
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background" />
           <header className="absolute inset-x-0 top-0 flex items-center justify-between px-6 py-6 md:px-12">
-            <span className="font-serif italic text-lg text-foreground/90">Село Чусовое, Свердловская область</span>
+            <a href="https://maps.app.goo.gl/6ckLu4trXTGDAi3m7" target="_blank" rel="noopener noreferrer" className="font-serif italic text-lg text-foreground/90 underline underline-offset-4 hover:text-foreground transition-colors">Село Чусовое, Свердловская область</a>
             <nav className="hidden gap-8 font-sans text-xs uppercase tracking-[0.25em] text-foreground/80 md:flex">
               <a href="#idea" className="hover:text-foreground transition-colors">Идея</a>
               <a href="#history" className="hover:text-foreground transition-colors">История</a>
