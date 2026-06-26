@@ -169,7 +169,7 @@ function Index() {
           </header>
           <figure className="absolute right-6 top-24 max-w-xs md:right-12 md:top-28 md:max-w-md">
             <p className="font-serif text-lg italic leading-relaxed text-foreground/90 md:text-2xl">
-              Резиденция работает по одному Богу известному расписанию, но вы нам пишите!
+              Резиденция работает по одному Богу известному расписанию, но мы узнаем его первыми, поэтому пишите нам даже если даты еще не были анонсированы.
             </p>
           </figure>
           <div className="absolute inset-x-0 bottom-0 px-6 pb-16 md:px-12 md:pb-24">
