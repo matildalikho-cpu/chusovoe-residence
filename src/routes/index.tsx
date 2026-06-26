@@ -437,8 +437,11 @@ function Index() {
             Написать в Telegram
             <span aria-hidden>→</span>
           </a>
-          <p className="mt-6 font-sans text-xs uppercase tracking-[0.25em] text-muted-foreground">
-            {"\n"}
+          <p className="mx-auto mt-8 max-w-xl font-serif text-lg italic leading-relaxed text-foreground">
+            Дом или комнату в нём можно снять и вне резиденции, условия обсуждаются, пишите в мессенджер или на почту{" "}
+            <a href="mailto:salyona@gmail.com" className="underline underline-offset-4 hover:text-muted-foreground transition-colors">
+              salyona@gmail.com
+            </a>
           </p>
         </div>
       </section>
