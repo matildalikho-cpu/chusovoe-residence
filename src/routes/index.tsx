@@ -224,7 +224,7 @@ function Index() {
           <div className="md:col-span-3 space-y-5 text-base leading-relaxed text-muted-foreground">
             <p>
               Резиденцию придумала в 2022 году художник-аниматор, кинорежиссёр и
-              сценарист <em className="text-foreground">Нина Бисярина</em>. Гостями
+              сценарист <a href="https://t.me/multfilmsandlife" target="_blank" rel="noopener noreferrer" className="text-foreground underline underline-offset-4 hover:opacity-80 transition-opacity">Нина Бисярина</a>. Гостями
               первых трёх резиденций стали Нинины друзья, коллеги и друзья друзей:
               кинематографисты, иллюстраторы, дизайнеры, художники, фотографы,
               музыканты, перформеры.
