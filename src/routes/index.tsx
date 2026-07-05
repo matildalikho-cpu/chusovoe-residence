@@ -11,7 +11,7 @@ import houseWall from "@/assets/house-wall.jpg.asset.json";
 import banyaDusk from "@/assets/banya-dusk.jpg.asset.json";
 import prints from "@/assets/prints.jpg.asset.json";
 import dog from "@/assets/dog.jpg.asset.json";
-import hostsCollage from "@/assets/hosts-collage-v21-script.png.asset.json";
+import hostsCollage from "@/assets/hosts-collage-v23-script.png.asset.json";
 import dinnerView from "@/assets/dinner-view.jpg.asset.json";
 import dogRing from "@/assets/dog-ring.jpg.asset.json";
 import pianoYard from "@/assets/piano-yard.jpg.asset.json";
