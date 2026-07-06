@@ -253,7 +253,7 @@ function Index() {
                   className="w-full object-cover"
                 />
                 {/* Patch over the original Dmitry label to keep it from peeking through */}
-                <div className="pointer-events-none absolute bottom-[8%] left-1/2 h-[40px] w-[130px] -translate-x-1/2 bg-background" />
+                <div className="pointer-events-none absolute bottom-[8%] left-1/2 h-[40px] w-[130px] -translate-x-1/2" style={{ backgroundColor: "#C5BCA7" }} />
                 {/* Lowered Dmitry label */}
                 <span className="pointer-events-none absolute bottom-[-4px] left-1/2 -translate-x-1/2 font-['Caveat'] text-2xl leading-none text-foreground sm:text-3xl">
                   Дмитрий
