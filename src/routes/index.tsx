@@ -245,20 +245,12 @@ function Index() {
             </p>
           </div>
           <div className="md:col-span-2">
-            <figure className="relative">
-              <div className="relative">
-                <img
-                  src={hostsCollage.url}
-                  alt="Нина, Дмитрий, Алёна — коллаж"
-                  className="w-full object-cover"
-                />
-                {/* Patch over the original Dmitry label to keep it from peeking through */}
-                <div className="pointer-events-none absolute bottom-[8%] left-1/2 h-[40px] w-[130px] -translate-x-1/2" style={{ backgroundColor: "#C5BCA7" }} />
-                {/* Lowered Dmitry label */}
-                <span className="pointer-events-none absolute bottom-[-4px] left-1/2 -translate-x-1/2 font-['Caveat'] text-2xl leading-none text-foreground sm:text-3xl">
-                  Дмитрий
-                </span>
-              </div>
+            <figure>
+              <img
+                src={hostsCollage.url}
+                alt="Нина, Дмитрий, Алёна — коллаж"
+                className="w-full object-cover"
+              />
               <figcaption className="mt-2 font-sans text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
                 {"\n"}
               </figcaption>
