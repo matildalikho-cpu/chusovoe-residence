@@ -11,7 +11,7 @@ import houseWall from "@/assets/house-wall.jpg.asset.json";
 import banyaDusk from "@/assets/banya-dusk.jpg.asset.json";
 import prints from "@/assets/prints.jpg.asset.json";
 import dog from "@/assets/dog.jpg.asset.json";
-import hostsCollage from "@/assets/hosts-collage-v22.png";
+import hostsCollage from "@/assets/hosts-collage-v23.png";
 import dinnerView from "@/assets/dinner-view.jpg.asset.json";
 import dogRing from "@/assets/dog-ring.jpg.asset.json";
 import pianoYard from "@/assets/piano-yard.jpg.asset.json";
@@ -246,11 +246,19 @@ function Index() {
           </div>
           <div className="md:col-span-2">
             <figure>
-              <img
-                src={hostsCollage}
-                alt="Нина, Дмитрий, Алёна — коллаж"
-                className="w-full object-cover"
-              />
+              <div className="relative">
+                <img
+                  src={hostsCollage}
+                  alt="Нина, Дмитрий, Алёна — коллаж"
+                  className="w-full object-cover"
+                />
+                <span
+                  className="absolute left-[48%] bottom-[1%] -translate-x-1/2 text-foreground/90"
+                  style={{ fontFamily: "'Caveat', cursive", fontSize: "clamp(18px, 2.6vw, 34px)" }}
+                >
+                  Дмитрий
+                </span>
+              </div>
               <figcaption className="mt-2 font-sans text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
                 {"\n"}
               </figcaption>
