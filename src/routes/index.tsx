@@ -247,7 +247,7 @@ function Index() {
           <div className="md:col-span-2">
             <figure>
               <img
-                src={hostsCollage.url}
+                src={hostsCollage}
                 alt="Нина, Дмитрий, Алёна — коллаж"
                 className="w-full object-cover"
               />
