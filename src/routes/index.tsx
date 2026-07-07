@@ -253,7 +253,7 @@ function Index() {
                   className="w-full object-cover"
                 />
                 <span
-                  className="absolute left-[48%] bottom-[1%] -translate-x-1/2 text-foreground/90"
+                  className="absolute left-[48%] bottom-[-4%] -translate-x-1/2 text-foreground/90"
                   style={{ fontFamily: "'Caveat', cursive", fontSize: "clamp(18px, 2.6vw, 34px)" }}
                 >
                   Дмитрий
