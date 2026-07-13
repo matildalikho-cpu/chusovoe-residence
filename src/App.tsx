@@ -201,8 +201,6 @@ export default function App() {
               <em className="text-foreground">Алёна Кунилова</em>, жена и подруга,
               городской исследователь, гид и мастер гостеприимства.
             </p>
-          </div>
-        </div>
       <Section number="03" title="Гости резиденции">
         <ul className="divide-y divide-border/60">
           {guests.map(([name, role]) => (
