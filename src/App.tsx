@@ -203,23 +203,20 @@ export default function App() {
             </p>
           </div>
           <div className="md:col-span-3">
-            <figure>
-              <div className="relative [container-type:inline-size] bg-background pb-10">
+            <figure className="bg-background pb-14">
+              <div className="relative [container-type:inline-size]">
                 <img
                   src={hostsCollage}
                   alt="Нина, Дмитрий, Алёна — коллаж"
                   className="w-full object-cover"
                 />
                 <span
-                  className="absolute left-[48%] bottom-[2%] -translate-x-1/2 text-foreground/90 text-[6.2cqi]"
+                  className="absolute left-[48%] bottom-[-8%] -translate-x-1/2 text-foreground/90 text-[5.6cqi]"
                   style={{ fontFamily: "'Caveat', cursive" }}
                 >
                   Дмитрий
                 </span>
               </div>
-              <figcaption className="mt-2 font-sans text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-                {"\n"}
-              </figcaption>
             </figure>
           </div>
         </div>
