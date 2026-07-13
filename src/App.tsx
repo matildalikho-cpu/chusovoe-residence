@@ -178,8 +178,8 @@ export default function App() {
 
       <div id="history" />
       <Section number="02" title="История">
-        <div className="grid gap-12 md:grid-cols-5">
-          <div className="md:col-span-3 space-y-5 text-base leading-relaxed text-muted-foreground">
+        <div className="grid gap-12 md:grid-cols-7 md:gap-16">
+          <div className="md:col-span-4 space-y-5 text-base leading-relaxed text-muted-foreground">
             <p>
               Резиденцию придумала в 2022 году художник-аниматор, кинорежиссёр и
               сценарист <a href="https://t.me/multfilmsandlife" target="_blank" rel="noopener noreferrer" className="text-foreground underline underline-offset-4 hover:opacity-80 transition-opacity">Нина Бисярина</a>. Гостями
@@ -202,17 +202,17 @@ export default function App() {
               городской исследователь, гид и мастер гостеприимства.
             </p>
           </div>
-          <div className="md:col-span-2">
+          <div className="md:col-span-3">
             <figure>
-              <div className="relative">
+              <div className="relative [container-type:inline-size]">
                 <img
                   src={hostsCollage}
                   alt="Нина, Дмитрий, Алёна — коллаж"
                   className="w-full object-cover"
                 />
                 <span
-                  className="absolute left-[48%] bottom-[-4%] -translate-x-1/2 text-foreground/90"
-                  style={{ fontFamily: "'Caveat', cursive", fontSize: "clamp(18px, 2.6vw, 34px)" }}
+                  className="absolute left-[48%] bottom-[-4%] -translate-x-1/2 text-foreground/90 text-[6.2cqi]"
+                  style={{ fontFamily: "'Caveat', cursive" }}
                 >
                   Дмитрий
                 </span>
