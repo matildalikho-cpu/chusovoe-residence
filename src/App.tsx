@@ -202,26 +202,7 @@ export default function App() {
               городской исследователь, гид и мастер гостеприимства.
             </p>
           </div>
-          <div className="md:col-span-3">
-            <figure className="bg-background pb-14">
-              <div className="relative [container-type:inline-size]">
-                <img
-                  src={hostsCollage}
-                  alt="Нина, Дмитрий, Алёна — коллаж"
-                  className="w-full object-cover"
-                />
-                <span
-                  className="absolute left-[48%] bottom-[-8%] -translate-x-1/2 text-foreground/90 text-[5.6cqi]"
-                  style={{ fontFamily: "'Caveat', cursive" }}
-                >
-                  Дмитрий
-                </span>
-              </div>
-            </figure>
-          </div>
         </div>
-      </Section>
-
       <Section number="03" title="Гости резиденции">
         <ul className="divide-y divide-border/60">
           {guests.map(([name, role]) => (
