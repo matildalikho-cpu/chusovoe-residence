@@ -204,7 +204,7 @@ export default function App() {
           </div>
           <div className="md:col-span-3">
             <figure>
-              <div className="relative [container-type:inline-size] bg-background pb-20">
+              <div className="relative [container-type:inline-size] bg-background pb-10">
                 <img
                   src={hostsCollage}
                   alt="Нина, Дмитрий, Алёна — коллаж"
