@@ -175,18 +175,26 @@ export default function App() {
         <img src={hillSunset} alt="" className="aspect-[3/4] w-full object-cover" />
         <img src={cliff} alt="" className="aspect-[3/4] w-full object-cover" />
       </div>
-
       <div id="history" />
       <Section number="02" title="История">
         <div className="grid gap-12 md:grid-cols-7 md:gap-16">
           <div className="md:col-span-4 space-y-5 text-base leading-relaxed text-muted-foreground">
             <p>
               Резиденцию придумала в 2022 году художник-аниматор, кинорежиссёр и
-              сценарист <a href="https://t.me/multfilmsandlife" target="_blank" rel="noopener noreferrer" className="text-foreground underline underline-offset-4 hover:opacity-80 transition-opacity">Нина Бисярина</a>. Гостями
-              первых трёх резиденций стали Нинины друзья, коллеги и друзья друзей:
-              кинематографисты, иллюстраторы, дизайнеры, художники, фотографы,
-              музыканты, перформеры.
+              сценарист{" "}
+              <a
+                href="https://t.me/multfilmsandlife"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-foreground underline underline-offset-4 hover:opacity-80 transition-opacity"
+              >
+                Нина Бисярина
+              </a>
+              . Гостями первых трёх резиденций стали Нинины друзья, коллеги и
+              друзья друзей: кинематографисты, иллюстраторы, дизайнеры,
+              художники, фотографы, музыканты, перформеры.
             </p>
+
             <p>
               Резиденция проходит одну неделю в году, летом. Местом стал дом
               друзей в селе Чусовом, где ещё в советское время Союз художников
@@ -194,13 +202,27 @@ export default function App() {
               художественного училища им. Шадра, сельская картинная галерея, а
               летом приезжают художники на пленэры.
             </p>
+
             <p>
               20 лет назад старый дом в Чусовом купил фотограф{" "}
               <em className="text-foreground">Дмитрий Кунилов</em>; за эти годы
               дом преобразился. Хост резиденции —{" "}
-              <em className="text-foreground">Алёна Кунилова</em>, жена и подруга,
-              городской исследователь, гид и мастер гостеприимства.
+              <em className="text-foreground">Алёна Кунилова</em>, жена и
+              подруга, городской исследователь, гид и мастер гостеприимства.
             </p>
+          </div>
+
+          <div className="md:col-span-3">
+            <figure>
+              <img
+                src={hostsCollage}
+                alt="Нина, Дмитрий, Алёна — коллаж"
+                className="w-full"
+              />
+            </figure>
+          </div>
+        </div>
+      </Section>
       <Section number="03" title="Гости резиденции">
         <ul className="divide-y divide-border/60">
           {guests.map(([name, role]) => (
