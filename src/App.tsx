@@ -211,7 +211,7 @@ export default function App() {
                   className="w-full object-cover"
                 />
                 <span
-                  className="absolute left-[48%] bottom-[-4%] -translate-x-1/2 text-foreground/90 text-[5.5cqi]"
+                  className="absolute left-[48%] bottom-[-4%] -translate-x-1/2 text-foreground/90 text-[5.8cqi]"
                   style={{ fontFamily: "'Caveat', cursive" }}
                 >
                   Дмитрий
