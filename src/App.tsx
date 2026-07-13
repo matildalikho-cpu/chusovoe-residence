@@ -362,7 +362,7 @@ export default function App() {
             <span aria-hidden>→</span>
           </a>
           <p className="mx-auto mt-8 max-w-xl font-serif text-lg italic leading-relaxed text-foreground">
-            Дом или комнату в нём можно снять и вне резиденции, условия обсуждаются, пишите в мессенджер или на почту{" "}
+            Или на почту{" "}
             <a href="mailto:salyona@gmail.com" className="underline underline-offset-4 hover:text-muted-foreground transition-colors">
               salyona@gmail.com
             </a>
