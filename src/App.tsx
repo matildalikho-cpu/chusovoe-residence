@@ -203,7 +203,7 @@ export default function App() {
             </p>
           </div>
           <div className="md:col-span-3">
-            <figure className="bg-background pb-12">
+            <figure className="bg-background pb-14">
               <div className="relative [container-type:inline-size]">
                 <img
                   src={hostsCollage}
@@ -211,7 +211,7 @@ export default function App() {
                   className="w-full object-cover"
                 />
                 <span
-                  className="absolute left-1/2 bottom-[-6%] -translate-x-1/2 text-foreground/90 text-[5.8cqi]"
+                  className="absolute left-[48%] bottom-[-8%] -translate-x-1/2 text-foreground/90 text-[5.6cqi]"
                   style={{ fontFamily: "'Caveat', cursive" }}
                 >
                   Дмитрий
