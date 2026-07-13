@@ -348,9 +348,8 @@ export default function App() {
             <br />
             <em>участником следующей резиденции</em>
           </h2>
-          <p className="mx-auto mt-8 max-w-xl text-base leading-relaxed text-muted-foreground">
-            Расскажите немного о себе и о том, чем хотите поделиться. Мы свяжемся,
-            когда сложится следующий состав и будут известны даты.
+          <p className="mx-auto mt-8 max-w-xl text-base leading-relaxed text-muted-foreground whitespace-pre-line">
+            Расскажите о себе и о том, чем вы готовы поделиться{"\u00a0"}{"\n"}с другими участниками резиденции.{"\u00a0"}
           </p>
           <a
             href="https://t.me/AlyonaRocket"
