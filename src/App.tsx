@@ -209,8 +209,15 @@ export default function App() {
               20 лет назад избу с участком в Чусовом купил фотограф{" "}
               <em className="text-foreground">Дмитрий Кунилов</em>; за эти годы
               дом преобразился. Хост резиденции —{" "}
-              <em className="text-foreground">Алёна Кунилова</em>, жена и
-              подруга, городской исследователь, гид и мастер гостеприимства.
+              <a
+                href="https://ulitsa-bazhova.ru/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-foreground underline underline-offset-4 hover:opacity-80 transition-opacity"
+              >
+                Алёна Кунилова
+              </a>
+              , жена и подруга, городской исследователь, гид и мастер гостеприимства.
             </p>
           </div>
 
