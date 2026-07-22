@@ -1,4 +1,5 @@
 import logo from "@/assets/logo.png";
+import broDesignLogo from "@/assets/bro-design-logo.png.asset.json";
 import lakeFloat from "@/assets/lake-float.jpg";
 import dockMist from "@/assets/dock-mist.jpg";
 import hillSunset from "@/assets/hill-sunset.jpg";
@@ -370,9 +371,16 @@ export default function App() {
       </section>
 
       <footer className="border-t border-border/60 px-6 py-10 md:px-12">
-        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 font-sans text-xs uppercase tracking-[0.25em] text-muted-foreground">
+        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-6 font-sans text-xs uppercase tracking-[0.25em] text-muted-foreground">
           <span>Чусовое · частная творческая резиденция</span>
-          <span>2022-2026</span>
+          <div className="flex items-center gap-6">
+            <img
+              src={broDesignLogo.url}
+              alt="Made by Bro Design"
+              className="h-8 w-auto md:h-10"
+            />
+            <span>2022-2026</span>
+          </div>
         </div>
       </footer>
     </main>
