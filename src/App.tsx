@@ -370,17 +370,14 @@ export default function App() {
           <img
             src={broDesignLogo}
             alt="Made by Bro Design"
-            className="mx-auto mt-10 h-32 w-auto md:h-40"
+            className="mx-auto mt-10 h-64 w-auto md:h-80"
           />
+          <div className="mx-auto mt-4 flex max-w-5xl flex-wrap items-center justify-center gap-6 font-sans text-xs uppercase tracking-[0.25em] text-muted-foreground">
+            <span>Чусовое · частная творческая резиденция</span>
+            <span>2022-2026</span>
+          </div>
         </div>
       </section>
-
-      <footer className="border-t border-border/60 px-6 py-10 md:px-12">
-        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-6 font-sans text-xs uppercase tracking-[0.25em] text-muted-foreground">
-          <span>Чусовое · частная творческая резиденция</span>
-          <span>2022-2026</span>
-        </div>
-      </footer>
     </main>
   );
 }
