@@ -1,5 +1,5 @@
 import logo from "@/assets/logo.png";
-import broDesignLogo from "@/assets/bro-design-logo.png.asset.json";
+import broDesignLogo from "@/assets/bro-design-logo.png";
 import lakeFloat from "@/assets/lake-float.jpg";
 import dockMist from "@/assets/dock-mist.jpg";
 import hillSunset from "@/assets/hill-sunset.jpg";
