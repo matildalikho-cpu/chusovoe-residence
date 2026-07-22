@@ -370,7 +370,7 @@ export default function App() {
           </p>
           <img
             src={broDesignLogo}
-            alt="Made by Bro Design"
+            alt="Логотип студии Bro Design — автора визуального оформления"
             className="mx-auto mt-10 h-64 w-auto md:h-80"
           />
           <div className="mx-auto mt-4 flex max-w-5xl flex-wrap items-center justify-center gap-6 font-sans text-xs uppercase tracking-[0.25em] text-muted-foreground">
