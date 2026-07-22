@@ -259,9 +259,9 @@ export default function App() {
           </div>
         </div>
         <div className="mt-12 grid gap-2 md:grid-cols-3">
-          <img src={prints} alt="" className="aspect-[4/3] w-full object-cover" />
-          <img src={table} alt="" className="aspect-[4/3] w-full object-cover" />
-          <img src={dog} alt="" className="aspect-[4/3] w-full object-cover" />
+          <img src={prints} alt="Отпечатки и работы резидентов на столе" className="aspect-[4/3] w-full object-cover" />
+          <img src={table} alt="Общий стол с ужином в доме резиденции" className="aspect-[4/3] w-full object-cover" />
+          <img src={dog} alt="Пёс Бродский во дворе дома" className="aspect-[4/3] w-full object-cover" />
         </div>
       </Section>
 
