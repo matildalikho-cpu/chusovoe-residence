@@ -375,7 +375,7 @@ export default function App() {
           <span>Чусовое · частная творческая резиденция</span>
           <div className="flex items-center gap-6">
             <img
-              src={broDesignLogo.url}
+              src={broDesignLogo}
               alt="Made by Bro Design"
               className="h-8 w-auto md:h-10"
             />
