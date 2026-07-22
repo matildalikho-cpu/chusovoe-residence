@@ -133,9 +133,10 @@ export default function App() {
           </figure>
           <div className="absolute inset-x-0 bottom-0 px-6 pb-16 md:px-12 md:pb-24">
             <div className="mx-auto max-w-6xl">
+              <h1 className="sr-only">Чусовое — частная творческая резиденция на Урале</h1>
               <img
                 src={logo}
-                alt="Чусовое — частная творческая резиденция"
+                alt="Логотип: Чусовое — частная творческая резиденция"
                 className="mb-8 w-full max-w-3xl drop-shadow-[0_2px_24px_rgba(255,255,255,0.6)] md:max-w-5xl"
               />
               <p className="max-w-xl pl-1 font-sans text-sm uppercase tracking-[0.25em] text-foreground/70">
@@ -172,9 +173,9 @@ export default function App() {
 
       {/* Image break */}
       <div className="grid gap-2 px-6 md:grid-cols-3 md:px-12">
-        <img src={lakeFloat} alt="" className="aspect-[3/4] w-full object-cover" />
-        <img src={hillSunset} alt="" className="aspect-[3/4] w-full object-cover" />
-        <img src={cliff} alt="" className="aspect-[3/4] w-full object-cover" />
+        <img src={lakeFloat} alt="Резиденты на сапе на озере в Чусовом" className="aspect-[3/4] w-full object-cover" />
+        <img src={hillSunset} alt="Закат над холмами вокруг Чусового" className="aspect-[3/4] w-full object-cover" />
+        <img src={cliff} alt="Скалистый берег реки Шайтанки" className="aspect-[3/4] w-full object-cover" />
       </div>
       <div id="history" />
       <Section number="02" title="История">
@@ -258,9 +259,9 @@ export default function App() {
           </div>
         </div>
         <div className="mt-12 grid gap-2 md:grid-cols-3">
-          <img src={prints} alt="" className="aspect-[4/3] w-full object-cover" />
-          <img src={table} alt="" className="aspect-[4/3] w-full object-cover" />
-          <img src={dog} alt="" className="aspect-[4/3] w-full object-cover" />
+          <img src={prints} alt="Отпечатки и работы резидентов на столе" className="aspect-[4/3] w-full object-cover" />
+          <img src={table} alt="Общий стол с ужином в доме резиденции" className="aspect-[4/3] w-full object-cover" />
+          <img src={dog} alt="Пёс Бродский во дворе дома" className="aspect-[4/3] w-full object-cover" />
         </div>
       </Section>
 
@@ -329,10 +330,10 @@ export default function App() {
       <Section number="07" title="Как это было">
         <div className="grid grid-cols-2 gap-2 md:grid-cols-3">
           {homeGallery.map((img, i) => (
-            <img key={`home-${i}`} src={img} alt="" className="aspect-[3/4] w-full object-cover" loading="lazy" />
+            <img key={`home-${i}`} src={img} alt={`Быт и творческие моменты в доме резиденции — фото ${i + 1}`} className="aspect-[3/4] w-full object-cover" loading="lazy" />
           ))}
           {natureGallery.map((img, i) => (
-            <img key={`nature-${i}`} src={img} alt="" className="aspect-[3/4] w-full object-cover" loading="lazy" />
+            <img key={`nature-${i}`} src={img} alt={`Природа Чусового: рассвет, река и окрестности — фото ${i + 1}`} className="aspect-[3/4] w-full object-cover" loading="lazy" />
           ))}
         </div>
       </Section>
@@ -369,7 +370,7 @@ export default function App() {
           </p>
           <img
             src={broDesignLogo}
-            alt="Made by Bro Design"
+            alt="Логотип студии Bro Design — автора визуального оформления"
             className="mx-auto mt-10 h-64 w-auto md:h-80"
           />
           <div className="mx-auto mt-4 flex max-w-5xl flex-wrap items-center justify-center gap-6 font-sans text-xs uppercase tracking-[0.25em] text-muted-foreground">
