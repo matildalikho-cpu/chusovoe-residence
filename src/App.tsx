@@ -173,9 +173,9 @@ export default function App() {
 
       {/* Image break */}
       <div className="grid gap-2 px-6 md:grid-cols-3 md:px-12">
-        <img src={lakeFloat} alt="" className="aspect-[3/4] w-full object-cover" />
-        <img src={hillSunset} alt="" className="aspect-[3/4] w-full object-cover" />
-        <img src={cliff} alt="" className="aspect-[3/4] w-full object-cover" />
+        <img src={lakeFloat} alt="Резиденты на сапе на озере в Чусовом" className="aspect-[3/4] w-full object-cover" />
+        <img src={hillSunset} alt="Закат над холмами вокруг Чусового" className="aspect-[3/4] w-full object-cover" />
+        <img src={cliff} alt="Скалистый берег реки Шайтанки" className="aspect-[3/4] w-full object-cover" />
       </div>
       <div id="history" />
       <Section number="02" title="История">
