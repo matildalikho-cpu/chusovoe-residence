@@ -330,10 +330,10 @@ export default function App() {
       <Section number="07" title="Как это было">
         <div className="grid grid-cols-2 gap-2 md:grid-cols-3">
           {homeGallery.map((img, i) => (
-            <img key={`home-${i}`} src={img} alt="" className="aspect-[3/4] w-full object-cover" loading="lazy" />
+            <img key={`home-${i}`} src={img} alt={`Быт и творческие моменты в доме резиденции — фото ${i + 1}`} className="aspect-[3/4] w-full object-cover" loading="lazy" />
           ))}
           {natureGallery.map((img, i) => (
-            <img key={`nature-${i}`} src={img} alt="" className="aspect-[3/4] w-full object-cover" loading="lazy" />
+            <img key={`nature-${i}`} src={img} alt={`Природа Чусового: рассвет, река и окрестности — фото ${i + 1}`} className="aspect-[3/4] w-full object-cover" loading="lazy" />
           ))}
         </div>
       </Section>
