@@ -133,9 +133,10 @@ export default function App() {
           </figure>
           <div className="absolute inset-x-0 bottom-0 px-6 pb-16 md:px-12 md:pb-24">
             <div className="mx-auto max-w-6xl">
+              <h1 className="sr-only">Чусовое — частная творческая резиденция на Урале</h1>
               <img
                 src={logo}
-                alt="Чусовое — частная творческая резиденция"
+                alt="Логотип: Чусовое — частная творческая резиденция"
                 className="mb-8 w-full max-w-3xl drop-shadow-[0_2px_24px_rgba(255,255,255,0.6)] md:max-w-5xl"
               />
               <p className="max-w-xl pl-1 font-sans text-sm uppercase tracking-[0.25em] text-foreground/70">
