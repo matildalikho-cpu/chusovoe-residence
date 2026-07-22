@@ -367,20 +367,18 @@ export default function App() {
               salyona@gmail.com
             </a>
           </p>
+          <img
+            src={broDesignLogo}
+            alt="Made by Bro Design"
+            className="mx-auto mt-10 h-32 w-auto md:h-40"
+          />
         </div>
       </section>
 
       <footer className="border-t border-border/60 px-6 py-10 md:px-12">
-        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-6 font-sans text-xs uppercase tracking-[0.25em] text-muted-foreground">
+        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-6 font-sans text-xs uppercase tracking-[0.25em] text-muted-foreground">
           <span>Чусовое · частная творческая резиденция</span>
-          <div className="flex items-center gap-6">
-            <img
-              src={broDesignLogo}
-              alt="Made by Bro Design"
-              className="h-8 w-auto md:h-10"
-            />
-            <span>2022-2026</span>
-          </div>
+          <span>2022-2026</span>
         </div>
       </footer>
     </main>
