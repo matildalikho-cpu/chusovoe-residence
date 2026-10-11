@@ -389,7 +389,7 @@ export default function App() {
           ))}
         </div>
         <div className="mb-8 mt-20 flex items-baseline justify-between gap-4 border-b border-border/60 pb-4">
-          <h3 className="font-serif text-2xl md:text-3xl">Хроника прошлых резиденций</h3>
+          <h3 className="font-serif text-2xl md:text-3xl">2022 – 2024</h3>
         </div>
         <div className="grid grid-cols-2 gap-2 md:grid-cols-3">
           {homeGallery.map((img, i) => (
