@@ -128,7 +128,8 @@ export default function App() {
           </header>
           <figure className="absolute right-6 top-24 max-w-xs md:right-12 md:top-28 md:max-w-md">
             <p className="font-serif text-lg italic leading-relaxed text-foreground/90 md:text-2xl">
-              В 2026 году резиденция пройдет с 13 по 16 августа. Напишите нам, если хотите присоединиться.
+              В 2026 году резиденция прошла с 13 по 16 августа. Напишите нам, если хотите присоединиться 
+к нам в следующем году.
             </p>
           </figure>
           <div className="absolute inset-x-0 bottom-0 px-6 pb-16 md:px-12 md:pb-24">
