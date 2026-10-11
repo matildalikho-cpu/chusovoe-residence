@@ -39,6 +39,22 @@ import tentsLake from "@/assets/tents-lake.jpg";
 import mosaicHands from "@/assets/mosaic-hands.jpg";
 import lunchLake from "@/assets/lunch-lake.jpg";
 import barnCinema from "@/assets/barn-cinema.jpg";
+import s01 from "@/assets/s2026/01.jpg";
+import s02 from "@/assets/s2026/02.jpg";
+import s03 from "@/assets/s2026/03.jpg";
+import s04 from "@/assets/s2026/04.jpg";
+import s05 from "@/assets/s2026/05.jpg";
+import s06 from "@/assets/s2026/06.jpg";
+import s07 from "@/assets/s2026/07.jpg";
+import s08 from "@/assets/s2026/08.jpg";
+import s09 from "@/assets/s2026/09.jpg";
+import s10 from "@/assets/s2026/10.jpg";
+import s11 from "@/assets/s2026/11.jpg";
+import s12 from "@/assets/s2026/12.jpg";
+import s13 from "@/assets/s2026/13.jpg";
+import s14 from "@/assets/s2026/14.jpg";
+import s15 from "@/assets/s2026/15.jpg";
+import s16 from "@/assets/s2026/16.jpg";
 
 const guests = [
   ["Дмитрий Ануфриев", "фотограф"],
@@ -87,6 +103,25 @@ const homeGallery = [
 
 const natureGallery = [
   bridgeFog, meadowSunrise, spiderWeb, bridgeDawn, thistles, goats,
+];
+
+const season2026: [string, string][] = [
+  [s01, "Участники резиденции 2026 года на крыльце жёлтого дома"],
+  [s02, "Графический воркшоп за общим столом на веранде"],
+  [s03, "Дом с горящими окнами под звёздным небом"],
+  [s04, "Участница показывает работы тушью"],
+  [s05, "Расписанные резидентами тарелки на старых досках"],
+  [s06, "Вечерний показ с проектором в амбаре"],
+  [s07, "Разговоры на ступеньках веранды на закате"],
+  [s08, "Мастер-класс по лепке из глины"],
+  [s09, "Книга «Камень» и жёлтые цветы на перилах веранды"],
+  [s10, "Презентация проекта «Смотрите! Солнце!»"],
+  [s11, "Кофе и домашняя выпечка у кухонного окна"],
+  [s12, "Прогулка к гроту в окрестностях Чусового"],
+  [s13, "Синяя дверь с вязаным венком"],
+  [s14, "Участница в дверях амбара"],
+  [s15, "У «Стены радости» — мегалитов села Чусовое"],
+  [s16, "Закатное солнце у веранды"],
 ];
 
 function Section({
@@ -344,6 +379,18 @@ export default function App() {
       </Section>
 
       <Section number="07" title="Как это было">
+        <div className="mb-8 flex items-baseline justify-between gap-4 border-b border-border/60 pb-4">
+          <h3 className="font-serif text-2xl md:text-3xl">Август 2026</h3>
+          <span className="font-sans text-xs uppercase tracking-[0.3em] text-muted-foreground">13–16 августа</span>
+        </div>
+        <div className="grid grid-cols-2 gap-2 md:grid-cols-4">
+          {season2026.map(([img, alt], i) => (
+            <img key={`s26-${i}`} src={img} alt={alt} className="aspect-[3/4] w-full object-cover" loading="lazy" />
+          ))}
+        </div>
+        <div className="mb-8 mt-20 flex items-baseline justify-between gap-4 border-b border-border/60 pb-4">
+          <h3 className="font-serif text-2xl md:text-3xl">Хроника прошлых резиденций</h3>
+        </div>
         <div className="grid grid-cols-2 gap-2 md:grid-cols-3">
           {homeGallery.map((img, i) => (
             <img key={`home-${i}`} src={img} alt={`Быт и творческие моменты в доме резиденции — фото ${i + 1}`} className="aspect-[3/4] w-full object-cover" loading="lazy" />
